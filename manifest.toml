@@ -1,0 +1,68 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "kutt"
+name = "Kutt"
+description.en = "URL Shortener"
+description.fr = "URL Shortener"
+
+version = "2.7.4~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://kutt.it/"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+code = "https://github.com/thedevs-network/kutt"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+[resources]
+
+    [resources.sources]
+
+        [resources.sources.main]
+        url = "https://github.com/thedevs-network/kutt/archive/refs/tags/v2.7.4.tar.gz"
+        sha256 = "862d34f41327889f09a81860aa00b81ebe583a5fc7158212925d22a0209cb966"
+        autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+    allow_email = true
+    
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    [resources.apt]
+    packages = "postgresql"
+
+    [resources.database]
+    type = "postgresql"
