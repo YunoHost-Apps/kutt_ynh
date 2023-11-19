@@ -5,7 +5,7 @@ packaging_format = 2
 id = "kutt"
 name = "Kutt"
 description.en = "URL Shortener"
-description.fr = "URL Shortener"
+description.fr = "Raccourcisseur d'URL"
 
 version = "2.7.4~ynh1"
 
