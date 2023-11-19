@@ -24,7 +24,7 @@ Kutt est un raccourcisseur d'URL moderne prenant en charge les domaines personna
 
 ## Captures d’écran
 
-![Capture d’écran de Kutt](./doc/screenshots/example.jpg)
+![Capture d’écran de Kutt](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

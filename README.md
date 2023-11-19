@@ -24,7 +24,7 @@ Kutt is a modern URL shortener with support for custom domains. Shorten URLs, ma
 
 ## Screenshots
 
-![Screenshot of Kutt](./doc/screenshots/example.jpg)
+![Screenshot of Kutt](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
