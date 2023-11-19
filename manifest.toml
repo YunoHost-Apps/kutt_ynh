@@ -14,8 +14,6 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 website = "https://kutt.it/"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/thedevs-network/kutt"
 
 [integration]
