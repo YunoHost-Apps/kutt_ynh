@@ -20,8 +20,6 @@ Kutt est un raccourcisseur d'URL moderne prenant en charge les domaines personna
 
 **Version incluse :** 2.7.4~ynh1
 
-**Démo :** https://demo.example.com
-
 ## Captures d’écran
 
 ![Capture d’écran de Kutt](./doc/screenshots/screenshot.png)
@@ -29,7 +27,6 @@ Kutt est un raccourcisseur d'URL moderne prenant en charge les domaines personna
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://kutt.it/>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://github.com/thedevs-network/kutt>
 * YunoHost Store: <https://apps.yunohost.org/app/kutt>
 * Signaler un bug : <https://github.com/YunoHost-Apps/kutt_ynh/issues>

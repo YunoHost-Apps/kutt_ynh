@@ -20,8 +20,6 @@ Kutt is a modern URL shortener with support for custom domains. Shorten URLs, ma
 
 **Shipped version:** 2.7.4~ynh1
 
-**Demo:** https://demo.example.com
-
 ## Screenshots
 
 ![Screenshot of Kutt](./doc/screenshots/screenshot.png)
@@ -29,7 +27,6 @@ Kutt is a modern URL shortener with support for custom domains. Shorten URLs, ma
 ## Documentation and resources
 
 * Official app website: <https://kutt.it/>
-* Official admin documentation: <https://yunohost.org/packaging_apps>
 * Upstream app code repository: <https://github.com/thedevs-network/kutt>
 * YunoHost Store: <https://apps.yunohost.org/app/kutt>
 * Report a bug: <https://github.com/YunoHost-Apps/kutt_ynh/issues>
