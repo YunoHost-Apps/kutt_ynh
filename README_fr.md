@@ -16,21 +16,17 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+Kutt est un raccourcisseur d'URL moderne prenant en charge les domaines personnalisés. Raccourcissez les URL, gérez vos liens et consultez les statistiques de taux de clics.
 
 **Version incluse :** 2.7.4~ynh1
 
-**Démo :** https://demo.example.com
-
 ## Captures d’écran
 
-![Capture d’écran de Kutt](./doc/screenshots/example.jpg)
+![Capture d’écran de Kutt](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://kutt.it/>
-* Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 * Dépôt de code officiel de l’app : <https://github.com/thedevs-network/kutt>
 * YunoHost Store: <https://apps.yunohost.org/app/kutt>
 * Signaler un bug : <https://github.com/YunoHost-Apps/kutt_ynh/issues>
