@@ -8,7 +8,7 @@
 # PERSONAL HELPERS
 #=================================================
 
-nodejs_version=12
+nodejs_version=18
 
 #=================================================
 # EXPERIMENTAL HELPERS
