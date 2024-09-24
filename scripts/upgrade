@@ -43,6 +43,16 @@ ynh_script_progression "Updating configuration..."
 ynh_config_add --template=".env" --destination="$install_dir/.env"
 
 #=================================================
+# INSTALL KUTT
+#=================================================
+ynh_script_progression "Installing $app..."
+
+pushd $install_dir
+	ynh_hide_warnings ynh_exec_as_app npm install --force
+	ynh_hide_warnings ynh_exec_as_app NODE_ENV=production npm run build --unhandled-rejections=strict
+popd
+
+#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
